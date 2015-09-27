@@ -9,10 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Full Stack Portfolio - James C. Fisher</title>
 
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
@@ -35,36 +35,29 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+      <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">James C. Fisher</a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about/index.html">About</a></li>
+                <li class="active"><a href="index.html">Portfolio</a> </li>
+                <li><a href="../blog.html">Blog</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
         </div>
         <!-- /.container-fluid -->
     </nav>
@@ -74,11 +67,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/IMG_0358.jpg" alt="">
                     <div class="intro-text">
                         <span class="name">James C. Fisher</span>
                         <hr class="star-light">
-                        <span class="skills">Full Stack Developer - Public Policy Analyst - Data Wrangler</span>
+                        <span class="skills">Full Stack Developer - Ruby on Rails - Test-Driven Development</span>
                     </div>
                 </div>
             </div>
@@ -97,13 +89,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>In September 2015, I completed Bloc's Rails Web Development track, a specialized, mentor-led course for building real projects with Ruby on Rails. In the course, I learned test driven development by building five web applications, including a capstone project.</p>
+                    <p>In September 2015, I completed Bloc's Rails Web Development track, a specialized, mentor-led course for building real projects with Ruby on Rails. In the course, I learned test-driven development by building five web applications, including a capstone project.</p>
                 </div>
                 <div class="col-lg-4">
                     <p>Some of the skills I've learned in the seven months finishing the Bloc course:
                         <ul>
                             <li>Ruby on Rails</li>
-                            <li>Test Driven Development/Rspec</li>
+                            <li>Test-Driven Development/Rspec</li>
                             <li>Bootstrap</li>
                             <li>HTML/CSS</li>
                             <li>Git/GitHub/Version Control</li>
@@ -113,7 +105,7 @@
                     </p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Scroll down to learn more about the applications I built below!</p>
+                    <p>Scroll down to learn more about the applications I built.</p>
                 </div>
             </div>
         </div>
@@ -126,7 +118,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Full Stack Portfolio</h2>
-                    <hr class="star-primary">
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
@@ -188,82 +180,7 @@
             </div>
         </div>
         <!-- /Full Stack Portfolio -->
-
-        <!-- Public Policy Portfolio -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Public Policy Analyst Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- /Public Policy Portfolio -->
     </section>
-
-
 
     <!-- Footer -->
         <footer class="footer" align="center">
@@ -412,7 +329,7 @@
                             <h2>Blocmetrics</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/tracker.png" class="img-responsive img-centered" alt="">
-                            <p></p>
+                            <p>Blocmetrics is an analytics service and reporting tool for web apps to track user activity and report results. This application taught me how to make a server-side API that captures and saves events to a database. The Rails app also allows users to see the information captured.</p>
                             <ul class="list-inline item-details">
                                 <li>GitHub:
                                     <strong><a href="https://github.com/jamesclarence/blocmetrics">Blocmetrics</a>
@@ -430,6 +347,7 @@
             </div>
         </div>
     </div>
+    <!-- Blocitoff Modal5 -->
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -445,18 +363,14 @@
                             <h2>Blocitoff</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/list.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <p>Blocitoff is a self-destructing to-do list Rails application. A user can add and delete items at their discretion, plus items will disappear after one week.</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>GitHub:
+                                    <strong><a href="https://github.com/jamesclarence/blocitoff">Blocitoff</a>
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Heroku:
+                                    <strong><a href="https://quiet-shore-3350.herokuapp.com/">Blocitoff</a>
                                     </strong>
                                 </li>
                             </ul>

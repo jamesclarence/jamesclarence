@@ -4401,7 +4401,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #18bc9c;
+  /* color: #18bc9c; */
   background-color: transparent;
 }
 .navbar-default .navbar-text {
@@ -4489,7 +4489,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
 }
 .navbar-inverse {
-  background-color: #18bc9c;
+  /* background-color: #18bc9c; */
   border-color: transparent;
 }
 .navbar-inverse .navbar-brand {

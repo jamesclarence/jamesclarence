@@ -23,7 +23,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: blue;
 }
 
 h1,
@@ -33,7 +33,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
     font-weight: 700;
 }
 
@@ -64,7 +64,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: gray;
+    background-color: #d1d6dc;
 }
 
 hr.star-primary {
@@ -82,8 +82,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: gray;
+    color: black;
+    background: #d1d6dc
 }
 
 header .container {
@@ -99,7 +99,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
     font-size: 2em;
     font-weight: 700;
 }
@@ -111,7 +111,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 100px;
         padding-bottom: 100px;
     }
 
@@ -124,8 +124,9 @@ header .intro-text .skills {
     }
 }
 
+
 @media(min-width:768px) {
-    .navbar-fixed-top {
+ /*   .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
@@ -148,20 +149,22 @@ header .intro-text .skills {
     }
 }
 
+
 .navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    /*text-transform: uppercase;
+    font-family: sans-serif;
 }
+
 
 .navbar a:focus {
     outline: 0;
 }
-
+*/
 .navbar .navbar-nav {
-    letter-spacing: 1px;
+    font-size: 14px;
 }
 
+/*
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
@@ -170,9 +173,11 @@ header .intro-text .skills {
 .navbar-inverse {
     border: 0;
 }
+*/
 
 section {
     padding: 100px 0;
+    background: #d1d6dc;
 }
 
 section h2 {
